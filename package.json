@@ -1,0 +1,21 @@
+{
+  "name": "middlefaker",
+  "version": "1.0.0",
+  "description": "Middlefaker is a tool to prepare fake app to test middlewares, this tool will set all necesary dependences and variables to the APP(Express, etc). It is usefull for test a unitary middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/ --recursive"
+  },
+  "keywords": [
+    "test",
+    "fake",
+    "app",
+    "express",
+    "middleware"
+  ],
+  "author": "Alberto Iglesias Gallego",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
