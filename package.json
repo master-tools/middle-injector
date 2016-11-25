@@ -4,7 +4,7 @@
   "description": "Middlefaker is a tool to prepare fake app to test middlewares, this tool will set all necesary dependences and variables to the APP(Express, etc). It is usefull for test a unitary middleware.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/ --recursive"
+    "test": "NODE_PATH=./lib ./node_modules/mocha/bin/mocha test/ --recursive"
   },
   "keywords": [
     "test",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "chai": "^3.5.0",
     "mocha": "^3.2.0"
   }
 }
