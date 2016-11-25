@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 let expressModule = require('modules/express/express');
-let middleFakerSwitch = require('modules/swich/swich');
+let middleFakerSwitch = require('modules/switch/switch');
 
 describe('Switch module: ', () => {
     before((done) => {
