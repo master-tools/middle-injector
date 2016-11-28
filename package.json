@@ -1,14 +1,14 @@
 {
-  "name": "middlefaker",
+  "name": "middle-inyector",
   "version": "1.0.0",
-  "description": "Middlefaker is a tool to prepare fake app to test middlewares, this tool will set all necesary dependences and variables to the APP(Express, etc). It is usefull for test a unitary middleware.",
+  "description": "Middle inyectorr is a tool to prepare the app to test middlewares, this tool will set all necesary dependences and variables to the APP on selected framework(Express, etc). It is usefull for test a unitary middleware.",
   "main": "index.js",
   "scripts": {
     "test": "NODE_PATH=./lib ./node_modules/mocha/bin/mocha test/ --recursive"
   },
   "keywords": [
     "test",
-    "fake",
+    "inyector",
     "app",
     "express",
     "middleware"
