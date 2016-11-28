@@ -20,7 +20,10 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "body-parser": "^1.15.2",
     "chai": "^3.5.0",
+    "cors": "^2.8.1",
+    "express-list-middleware": "^1.0.1",
     "mocha": "^3.2.0",
     "sinon": "^1.17.6"
   }
