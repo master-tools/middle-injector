@@ -4,7 +4,8 @@
   "description": "Middle inyectorr is a tool to prepare the app to test middlewares, this tool will set all necesary dependences and variables to the APP on selected framework(Express, etc). It is usefull for test a unitary middleware.",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_PATH=./lib ./node_modules/mocha/bin/mocha test/ --recursive"
+    "test": "NODE_PATH=./lib ./node_modules/mocha/bin/mocha test/ --recursive",
+    "test-travis": "NODE_PATH=./lib ./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha test/ --  --recursive "
   },
   "keywords": [
     "test",
@@ -23,7 +24,9 @@
     "body-parser": "^1.15.2",
     "chai": "^3.5.0",
     "cors": "^2.8.1",
+    "coveralls": "^2.11.15",
     "express-list-middleware": "^1.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "sinon": "^1.17.6"
   }
