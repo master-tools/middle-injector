@@ -19,16 +19,8 @@ describe('Express module: ', () => {
     });
 
     it('Should return an object when init function is called.', (done) => {
-        let fakeApp = expressModule.init({},{});
+        let fakeApp = expressModule.init([], []);
         expect(fakeApp).to.be.an('function');
-        done();
-    });
-
-    it('Should call to load dependencies.', (done) => {
-        done();
-    });
-
-    it('Should call to load variables.', (done) => {
         done();
     });
 });
