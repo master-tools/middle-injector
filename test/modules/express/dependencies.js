@@ -1,6 +1,5 @@
 'use strict';
 
-const assert = require('assert');
 const expect = require('chai').expect;
 const assertChai = require('chai').assert;
 const mocksDependencies = require('../mocks/express/dependencies');

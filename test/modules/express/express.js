@@ -1,6 +1,5 @@
 'use strict';
 
-const assert = require('assert');
 const expect = require('chai').expect;
 let expressModule = require('modules/express/express');
 

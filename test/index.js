@@ -1,6 +1,5 @@
 'use strict';
 
-const assert = require('assert');
 const expect = require('chai').expect;
 let middleInyector = require('../index');
 
