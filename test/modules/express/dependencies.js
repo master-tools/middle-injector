@@ -43,7 +43,7 @@ describe('Dependencies express module: ', () => {
 
         listOfMiddlewares.forEach((middleware) => {
             if(middleware.includes('jsonParser') || middleware.includes('cors')) {
-                middlewaresArray.push(middleware)
+                middlewaresArray.push(middleware);
             }
         });
 
