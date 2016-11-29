@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/master-tools/middle-inyector.svg?branch=master)](https://travis-ci.org/master-tools/middle-inyector)
-[![Coverage Status](https://coveralls.io/repos/github/master-tools/middle-inyector/badge.svg?branch=master)](https://coveralls.io/github/master-tools/middle-inyector?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/master-tools/middle-inyector/badge.svg)](https://coveralls.io/github/master-tools/middle-inyector)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6883719a1d324162a1cec89c7e7f2380)](https://www.codacy.com/app/alberto-uchiha/middle-inyector?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=master-tools/middle-inyector&amp;utm_campaign=Badge_Grade)
 
 Middle-inyector
@@ -17,7 +17,6 @@ To install middle-inyector you can run the next command:
 
 Example
 -------
-
 
 Test
 ----
