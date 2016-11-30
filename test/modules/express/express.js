@@ -1,7 +1,7 @@
 'use strict';
 
 const expect = require('chai').expect;
-let expressModule = require('modules/express/express');
+let expressModule = require('../../../lib/modules/express/express');
 
 describe('Express module: ', () => {
     before((done) => {

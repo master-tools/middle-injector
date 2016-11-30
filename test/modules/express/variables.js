@@ -3,7 +3,7 @@
 const assert = require('assert');
 const expect = require('chai').expect;
 const mocksVariables = require('../mocks/express/variables');
-let variablesModule = require('modules/express/variables');
+let variablesModule = require('../../../lib/modules/express/variables');
 
 describe('Variables express module: ', () => {
     before((done) => {

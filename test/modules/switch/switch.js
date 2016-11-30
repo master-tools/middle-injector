@@ -1,9 +1,9 @@
 'use strict';
 
 const assert = require('assert');
-let expressModule = require('modules/express/express');
-let restifyModule = require('modules/restify/restify');
-let middleInyectorSwitch = require('modules/switch/switch');
+let expressModule = require('../../../lib/modules/express/express');
+let restifyModule = require('../../../lib/modules/restify/restify');
+let middleInyectorSwitch = require('../../../lib/modules/switch/switch');
 
 describe('Switch module: ', () => {
     before((done) => {

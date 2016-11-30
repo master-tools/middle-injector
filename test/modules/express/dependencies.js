@@ -3,7 +3,7 @@
 const expect = require('chai').expect;
 const assertChai = require('chai').assert;
 const mocksDependencies = require('../mocks/express/dependencies');
-let dependenciesModule = require('modules/express/dependencies');
+let dependenciesModule = require('../../../lib/modules/express/dependencies');
 
 describe('Dependencies express module: ', () => {
     before((done) => {
