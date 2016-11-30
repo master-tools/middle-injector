@@ -2,14 +2,14 @@
 
 let switchModule = require('./lib/modules/switch/switch');
 
-let createFake = (framework = 'express', dependencies = [], variables  = []) => {
+let createApp = (framework = 'express', dependencies = [], variables  = []) => {
     let selectedFramework = switchModule.switch(framework);
     selectedFramework.init(dependencies, variables);
     return selectedFramework;
 };
 
 /**
- * Expose `createApplication()`.
+ * Expose `createApp()`.
  */
 
-exports = module.exports = createFake;
+exports = module.exports = createApp;
