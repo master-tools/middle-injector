@@ -10,8 +10,7 @@ let switchModule = require('./lib/modules/switch/switch');
  */
 let createApp = (framework = 'express', dependencies = [], variables  = []) => {
     let selectedFramework = switchModule.switch(framework);
-    selectedFramework.init(dependencies, variables);
-    return selectedFramework;
+    return selectedFramework.init(dependencies, variables);
 };
 
 exports = module.exports = createApp;

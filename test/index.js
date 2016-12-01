@@ -12,15 +12,15 @@ describe('MiddleInyector app: ', () => {
         done();
     });
 
-    it('Should return an express object when createFake is called', (done) => {
+    it('Should return an express app when createApp is called', (done) => {
         let fakeApp = middleInyector();
-        expect(fakeApp).to.be.a('object');
+        expect(fakeApp).to.be.a('function');
         done();
     });
 
-    it('Should return an express object when createFake is called with all parameters', (done) => {
+    it('Should return an express app when createApp is called with all parameters', (done) => {
         let fakeApp = middleInyector('express', [], []);
-        expect(fakeApp).to.be.a('object');
+        expect(fakeApp).to.be.a('function');
         done();
     });
 
