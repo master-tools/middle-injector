@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/master-tools/middle-injector.svg?branch=master)](https://travis-ci.org/master-tools/middle-injector)
-[![Dependency Status](https://www.versioneye.com/user/projects/583d9c098de3f3004d1ebd60/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/583d9c098de3f3004d1ebd60)
+[![Dependency Status](https://www.versioneye.com/user/projects/5845d59a03d153004d8ec9a6/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5845d59a03d153004d8ec9a6)
 [![Coverage Status](https://coveralls.io/repos/github/master-tools/middle-injector/badge.svg)](https://coveralls.io/github/master-tools/middle-injector)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6883719a1d324162a1cec89c7e7f2380)](https://www.codacy.com/app/alberto-uchiha/middle-injector?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=master-tools/middle-injector&amp;utm_campaign=Badge_Grade)
 
