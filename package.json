@@ -1,6 +1,6 @@
 {
   "name": "middle-injector",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.4",
   "description": "Middle injector is a tool to prepare the app to test middlewares, this tool will set all necesary dependences and variables to the APP on selected framework(Express, etc). It is usefull for test a unitary middleware.",
   "main": "index.js",
   "scripts": {
