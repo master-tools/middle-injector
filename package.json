@@ -29,6 +29,7 @@
     "express-list-middleware": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "sinon": "^1.17.6"
+    "sinon": "^1.17.6",
+    "standard": "^8.6.0"
   }
 }
